@@ -1,0 +1,123 @@
+/* image 1 */
+.featured1 .box-container1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.featured1 .box-container1 .box1{
+    flex: 1 1 27rem;
+    background: var(--white-color);
+    border: .1rem solid var(--light-color);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.featured1 .box-container1 .box1 .image-container1{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding: 1rem;
+}
+
+.featured1 .box-container1 .box1 .image-container1 .small-image1{
+    width: 20%;
+}
+
+.featured1 .box-container1 .box1 .image-container1 .big-image1{
+    width: 80%;
+    /* height: 70%; */
+}
+
+.featured1 .box-container1 .box1 .image-container1 .small-image1 img{
+    width: 100%;
+    /* height: 10rem; */
+    padding: .5rem;
+    margin-bottom: 1rem;
+    border: .1rem solid var(--light-color);
+    cursor: pointer;
+}
+
+.featured1 .box-container1 .box1 .image-container1 .big-image1 img{
+    width: 100%;
+}
+
+.featured1 .box-container1 .box1 .content1{
+    padding: 1rem;
+    border-top: .1rem solid var(--light-color);
+}
+
+.featured1 .box-container1 .box1 .content1 h3{
+    font-size: 2.5rem;
+    color: var(--black-color);
+}
+
+.featured1 .box-container1 .box1 .content1 .stars1{
+    padding: .5rem 0;
+}
+
+.featured1 .box-container1 .box1 .content1 .stars1 i{
+    font-size: 1.5rem;
+    color: var(--orange);
+}
+
+.featured1 .box-container1 .box1 .content1 .stars1 span{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    font-weight: 300;
+}
+
+.featured1 .box-container1 .box1 .content1 p{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    padding: .5rem 0;
+}
+
+.featured1 .box-container1 .box1 .content1 .price1{
+    font-size: 2.5rem;
+    color: var(--orange);
+    font-weight: bolder;
+    padding: .5rem 0;
+}
+
+.featured1 .box-container1 .box1 .content1 .price1 span{
+    font-size: 1.5rem;
+    color: var(--black-color);
+    font-weight: 300;
+    text-decoration: line-through;
+}
+
+.featured1 .size-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    margin-top: 2.8rem;
+    border: 1px solid gray;
+    border-radius: .5rem;
+}
+
+.featured1 .size-container .size-line{
+    flex: 1 1 27rem;
+    background: var(--white-color);
+    padding: 1rem;
+}
+
+.featured1 .size-container .size-line h4{
+    font-size: 1.8rem;
+}
+
+.featured1 .size-container .size-line .size-btn{
+    display: inline-block;
+    padding: 7px 14px;
+    margin: 10px 4px;
+    font-size: 1.7rem;
+    color: #111;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid grey;
+}
+
+.featured1 .size-container .size-line .size-btn:hover{
+    background-color: rgb(7, 171, 7);
+    color: #fff;
+}
